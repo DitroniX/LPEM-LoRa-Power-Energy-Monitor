@@ -2,12 +2,13 @@
 
 **Supporting STEM Electronic Internet of Things & Home Automation Technology for Smart Energy Monitoring**
 
+**New Project Placeholder**
+
+## Updates
+
+-   25-09-03 - Alpha Testing, Schematics and Layout Topology
+
 ------------
-
-This folder contains applicable datasheets and design information.
-
-
-
 
 ## **Further Information**
 
