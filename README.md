@@ -1,4 +1,4 @@
-## LPEM ESP32-C6 ATM90E36 SX1262 LoRa Power Energy Monitor SDK
+## LPEM ESP32-C6 ATM90E36 SX1262 LoRa, Power Energy Monitor SDK
 
 **Supporting STEM Electronic Internet of Things & Home Automation Technology for Smart Energy Monitoring**
 
