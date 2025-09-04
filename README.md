@@ -59,17 +59,31 @@ All original IPEM boards and variants were based on the ESP32-WROOM.  EPEM was b
 
 With the advances in Espressif MCU technologies, moving away from the humble ESP32 to the newer ESP32-C6 provides increased speed advantage plus the superior and powerful radio with Zigbee, thread and mesh, so the ESP32-C6 in **LPEM** was an obvious choice. 
 
-### **LoRa**
+### **LoRa / LoRaWAN**
 
 To enable remote site mains monitoring, where Wi-FI or Ethernet is not viable, adding a LoRa interface was an obvious solution.
+#### LoRa Radio:
 
-Allows connection to:
+The eByte E22-900MM22S, SX1262, module is incorporated on the **LPEM** board, providing excellent LoRa spec:
+ * Full 868 and 915 MHz support (850MHz-930MHz) [Countries](https://www.thethingsnetwork.org/docs/lorawan/frequencies-by-country/)
+	 * EU868 (EU863-870) Europe
+	 * IN865 (IN865-867), India 
+	 * AU915 (AU915-928), Australia, New Zealand and Latin American 
+	 * US915 (US902-928), USA, Canada and South America 
+	 * KR920 (KR920-823), South Korea 
+	 * AS923-AS1 (AS920-925), Japan, South Korea, Southeast Asia and Oceania 
+	 * AS925-AS2 (AS920-925), Brunei, Cambodia, Hong Kong, Indonesia, Laos, Taiwan, Thailand, Vietnam
+ * Low Current
+ * High receiver sensitivity, typically -146 dBm
+ * High transmitter power, typically up to 21.5 dBm
+
+#### Connection examples:
 
  - LoRaWAN Gateway examples:
 	 - Private LoRa Networks
 	 - The Things Network (TTN)
 	 - Helium
-	 - Meshtastic Off-Grid
+	 - Meshtastic (Off-Grid)
 	 - Chirpstack
 
 ### **Radio and U.FL**
@@ -127,7 +141,7 @@ This RS-485 interface could also be used to control local CCTV on remote install
 
 The need to maintain a very accurate real time clock when metering, or logging, was requested by some users. Ideally battery backed up.
 
-This feature was included on the [IPEM PiHat](https://github.com/DitroniX/IPEM-PiHat-IoT-Power-Energy-Monitor) and EPEM, so I have included it on the LPEM too.
+This feature was included on the [IPEM PiHat](https://github.com/DitroniX/IPEM-PiHat-IoT-Power-Energy-Monitor) and [EPEM](https://github.com/DitroniX/EPEM-Ethernet-Power-Energy-Monitor), so I have included it on the LPEM too.
 
 Using the same extremely accurate and low power DS3231SN real time clock IC, with integrated temperature compensated crystal oscillator (TCXO), this is easily controlled via I2C and maintained via external optional plug-in CR2302 3V coin battery.
 
