@@ -217,8 +217,8 @@ The **LPEM** IoT **LoRa, Power Energy Monitor** board main features and Outline 
     -   Warning/IRQ Monitor
     -   Single Point Calibration per Phase
 -   **SX1262**
-    -   High sensitivity LoRa Module
-    -   *Details to be expanded*
+    -   High sensitivity LoRa E22-900MM22S Module
+    -   Full 868 and 915 MHz support (850MHz-930MHz)
 -   **RS-485 CS48520D Interface**
     -   MODBUS or Other Protocol
     -   Selectable 120R Load Resistor
