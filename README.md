@@ -123,7 +123,7 @@ As previously mentioned, the ESP32-C6 includes a powerful radio module, opening 
 
 Zigbee and mesh are expanding in an range of home, farming and industrial applications, so will be interested to see how this develops over time.
 
-Using a mix of Ethernet and Zigbee, installations could offer remote mesh systems, with a mix of communications technologies.
+Using a mix of LoRa and Zigbee, installations could offer remote mesh systems, with a mix of communications technologies.
 
 #### _**Tip: MHF3 Antenna Connection**_
 
@@ -162,7 +162,7 @@ The **LPEM** IoT **LoRa, Power Energy Monitor** board main features and Outline 
     -   Fully Populated and Tested
 -   **All connections are Low Voltage, for Safe Installation and Operation**
 -   **Easy to interface and Program**
--   **Powerful Radio or Ethernet Connections to IoT Network**
+-   **Powerful Radio or Connections to IoT LoRa Network**
 -   **Board Jumpers for Easy 'No Solder' Configuration**
 
 #### **Devices and Interfaces**
